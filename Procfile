@@ -1,1 +1,1 @@
-web:gunicorn predict_disease.wsgi
+web: gunicorn predict_disease.wsgi
