@@ -1,1 +1,1 @@
-web:gonicorn predict_disease.wsgi --log-file
+web:gonicorn predict_disease.wsgi --log-file -
