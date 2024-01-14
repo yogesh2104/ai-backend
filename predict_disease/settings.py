@@ -23,9 +23,9 @@ MODELS = os.path.join(BASE_DIR, './saved_model')
 SECRET_KEY = 'django-insecure-ozk&+&oo-24n$!qn#v#g_tzcf&d^+wbyb-e6n(2+y_sk8x*(%='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app','.now.sh','*']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -56,7 +56,6 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:9000",
-    "https://vercel.app"
 ]
 
 ROOT_URLCONF = 'predict_disease.urls'
