@@ -23,7 +23,7 @@ MODELS = os.path.join(BASE_DIR, './saved_model')
 SECRET_KEY = 'django-insecure-ozk&+&oo-24n$!qn#v#g_tzcf&d^+wbyb-e6n(2+y_sk8x*(%='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
